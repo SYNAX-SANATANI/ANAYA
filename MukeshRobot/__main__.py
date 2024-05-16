@@ -81,16 +81,23 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text=" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ", 
+            text=" • ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ • ", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
     ],
     [
-        InlineKeyboardButton(text="ʀᴇᴘᴏ", callback_data="gib_source"),
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="mukesh_"),
+        InlineKeyboardButton(text=" • ʀᴇᴘᴏ • ", callback_data="gib_source"),
+        InlineKeyboardButton(text=" • ᴀʙᴏᴜᴛ • ", callback_data="mukesh_"),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/professor_network"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+    ],
+    [
+        InlineKeyboardButton(text=" • ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs • ", callback_data="Main_help"),
+    ],
+    [
+        InlineKeyboardButton(text=" [ 𝐏𝐑𝚯𝐅𝐄𝐒𝐒𝚯𝐑 ][ 𝚂ʌŋᴀᴛᴎɩ ] ", url=f"https://t.me/{OWNER_ID}"),
     ],
      
 ]
