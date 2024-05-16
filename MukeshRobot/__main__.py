@@ -90,14 +90,14 @@ buttons = [
         InlineKeyboardButton(text=" • ᴀʙᴏᴜᴛ • ", callback_data="mukesh_"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/professor_network"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text=" • ᴜᴘᴅᴀᴛᴇ • ", url=f"https://t.me/professor_network"),
+        InlineKeyboardButton(text=" • ꜱᴜᴘᴘᴏʀᴛ • ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(text=" • ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs • ", callback_data="Main_help"),
     ],
     [
-        InlineKeyboardButton(text=" [ 𝐏𝐑𝚯𝐅𝐄𝐒𝐒𝚯𝐑 ][ 𝚂ʌŋᴀᴛᴎɩ ] ", url=f"https://t.me/{OWNER_ID}"),
+        InlineKeyboardButton(text=" [ 𝐏𝐑𝚯𝐅𝐄𝐒𝐒𝚯𝐑 ][ 𝚂ʌŋᴀᴛᴎɩ ] ", url=f"https://t.me/sourabh_owner"),
     ],
      
 ]
@@ -105,12 +105,12 @@ buttons = [
 
 roy = [
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/professor_network"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text=" • ᴜᴘᴅᴀᴛᴇ • ", url=f"https://t.me/professor_network"),
+        InlineKeyboardButton(text=" • ꜱᴜᴘᴘᴏʀᴛ • ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+            text=" • ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ • ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -482,8 +482,8 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="mukesh_back"),
-                        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url="https://t.me/professor_network"),
+                        InlineKeyboardButton(text=" • ʜᴏᴍᴇ • ", callback_data="mukesh_back"),
+                        InlineKeyboardButton(text=" • ᴜᴘᴅᴀᴛᴇ • ", url="https://t.me/professor_network"),
                     ],
                 ]
             ),
@@ -521,15 +521,15 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
-                        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_")
+                        InlineKeyboardButton(text=" • ᴍᴀɴᴀɢᴇ • ", callback_data="help_back"),
+                        InlineKeyboardButton(text=" • ᴍᴜsɪᴄ • ", callback_data="Music_")
                     ],
                     [
-                        InlineKeyboardButton(text="ꜱᴘᴀᴍ", callback_data="Music_roy"),
-                        InlineKeyboardButton(text="ᴀɴɪᴍᴇ", callback_data="source_") 
+                        InlineKeyboardButton(text=" • ꜱᴘᴀᴍ • ", callback_data="Music_roy"),
+                        InlineKeyboardButton(text=" • ᴀɴɪᴍᴇ • ", callback_data="source_") 
                     ],
                     [
-                        InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="mukesh_back")
+                        InlineKeyboardButton(text=" • ʜᴏᴍᴇ • ", callback_data="mukesh_back")
                     ],
                 ]
             ),
@@ -540,7 +540,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="Main_help"),InlineKeyboardButton(text="ANIME", callback_data="Avisha_")
+                        InlineKeyboardButton(text=" • ʙᴀᴄᴋ • ", callback_data="Main_help"),InlineKeyboardButton(text="ANIME", callback_data="Avisha_")
                     ]
                 ]
             ),
